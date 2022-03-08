@@ -1,0 +1,87 @@
+/*ページ全体の設定*/
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*ヘッダー*/
+.header{
+  background-color: #337079;
+  color: white;
+}
+.header>.container{
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+/*ナビゲーション*/
+.area_nav_header{
+  margin-left: auto;
+}
+/*リストナビ*/
+.list_nav_header{
+  display: flex;
+  align-items: center;
+  list-style: none
+}
+.list_nav_header>li+li{
+  margin-left: 40px;
+;
+}
+
+
+
+
+/*メイン*/
+.flex{
+  display: flex;
+}
+main{
+  width: 80%;
+  height: 800px;
+}
+
+.img_flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/*サイドバー*/
+aside{
+  width: 30%;
+  background-color: coral;
+  width: 200px;
+}
+
+/*フッター*/
+footer{
+  background-color: black;
+  color: white;
+}
+
+
+/*レスポンシブデザイン対応*/
+@media screen and (max-width: 1024px){
+}
+
+@media screen and (max-width:768px) {
+  .flex{
+    flex-direction: column;
+  }
+  main{
+    width: 100px;
+  }
+  aside{
+    width: 100px;
+  }
+}
+
+@media screen and (max-widht:480px){
+  
+}
