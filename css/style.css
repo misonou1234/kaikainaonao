@@ -8,66 +8,120 @@
   margin: 0 auto;
 }
 
-/*ヘッダー*/
-.header{
-  background-color: #337079;
-  color: white;
+html {
+  font-size: 100%;
 }
-.header>.container{
-  height: 60px;
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+.site-title {
+  width: 120px;
+  line-height: 1px;
+  padding: 10px 0;
+}
+.site-title a {
+  display: block;
+}
+.section-title {
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+}
+.content-title {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+  padding: 0 4%;
+  text-align: center;
+}
+
+
+
+
+
+/* ヘッダー*/
+#header{
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
 }
-
-/*ナビゲーション*/
-.area_nav_header{
-  margin-left: auto;
-}
-/*リストナビ*/
-.list_nav_header{
+#header ul{
   display: flex;
-  align-items: center;
-  list-style: none
-}
-.list_nav_header>li+li{
-  margin-left: 40px;
-;
+  padding: 10px 0;
 }
 
-
-
+#header li{
+  margin-left: 30px;
+}
+#header li a {
+  color: #24292e;
+}
+#header li a:hover {
+  opacity: 0.7;
+}
 
 /*メイン*/
 .flex{
   display: flex;
 }
-main{
-  width: 80%;
-  height: 800px;
-}
 
-.img_flex{
+
+#mainvisual{
+  margin-bottom: 80px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 
+#mainvisual img{
+  width: 100%;
+  max-width: 960px;
+  height: 600px;
+  object-fit: cover;
+}
 
-/*サイドバー*/
-aside{
-  width: 30%;
-  background-color: coral;
-  width: 200px;
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.img_main{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.text_content{
+  text-align: left;
 }
 
 /*フッター*/
-footer{
-  background-color: black;
-  color: white;
+#footer{
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
 }
 
 
-/*レスポンシブデザイン対応*/
-@media screen and (max-width: 1024px){
+/*レスポンシブデザイン対応(コメント)*/
+/* @media screen and (max-width: 1024px){
 }
 
 @media screen and (max-width:768px) {
@@ -84,4 +138,4 @@ footer{
 
 @media screen and (max-widht:480px){
   
-}
+} */
