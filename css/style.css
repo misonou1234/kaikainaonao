@@ -81,7 +81,7 @@ li {
   display: flex;
 }
 
-
+/* メイン画像 */
 #mainvisual{
   margin-bottom: 80px;
   display: flex;
@@ -96,6 +96,7 @@ li {
   object-fit: cover;
 }
 
+/* about */
 .content{
   display: flex;
   justify-content: center;
@@ -111,6 +112,20 @@ li {
 .text_content{
   text-align: left;
 }
+
+/* Histroy */
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item{
+  padding: 30px;
+  width: 32%;
+}
+
+
 
 /*フッター*/
 #footer{
