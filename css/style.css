@@ -91,7 +91,7 @@ li {
 
 #mainvisual img{
   width: 100%;
-  max-width: 960px;
+  max-width: 1980px;
   height: 600px;
   object-fit: cover;
 }
@@ -122,8 +122,18 @@ li {
 
 .item{
   padding: 30px;
-  width: 32%;
+  width: 20%;
 }
+
+@media not all and (min-width: 768px) {
+  .item {
+    width: 100%;
+  }
+}
+
+  .item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 
 
 
@@ -133,24 +143,3 @@ li {
   padding: 10px 0;
   text-align: center;
 }
-
-
-/*レスポンシブデザイン対応(コメント)*/
-/* @media screen and (max-width: 1024px){
-}
-
-@media screen and (max-width:768px) {
-  .flex{
-    flex-direction: column;
-  }
-  main{
-    width: 100px;
-  }
-  aside{
-    width: 100px;
-  }
-}
-
-@media screen and (max-widht:480px){
-  
-} */
