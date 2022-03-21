@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.mainvisual{
+  margin-bottom: 80px;
+}
+
+.mainvisual_video{
+width: 1920px;
+max-width: 1920px;
+height: 500px;
+object-fit: cover;
+
+}
