@@ -1,13 +1,61 @@
 @charset "UTF-8";
 
+/* メイン画像 */
 .mainvisual{
   margin-bottom: 80px;
 }
 
 .mainvisual_video{
-width: 1920px;
+width: 100%;
 max-width: 1920px;
 height: 500px;
 object-fit: cover;
+}
 
+/* プロフィール */
+.profile-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+.profile-content>p{
+  width: 49%;
+}
+
+/* スキル */
+/* p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px auto 40px;
+} */
+table {
+  margin: 20px auto;
+}
+.tbl-r02 th {
+  background: #e9727e;
+  border: solid 1px #ccc;
+  color: #fff;
+  padding: 10px;
+}
+.tbl-r02 td {
+border: solid 1px #ccc;
+  padding: 10px;
+}
+ 
+@media screen and (max-width: 640px) {
+  .last td:last-child {
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+  }
+  .tbl-r02 {
+    width: 80%;
+  }
+  .tbl-r02 th,
+  .tbl-r02 td {
+border-bottom: none;
+    display: block;
+    width: 100%;
+  }
 }
