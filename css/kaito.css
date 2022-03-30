@@ -24,16 +24,13 @@ object-fit: cover;
 }
 
 /* スキル */
-/* p {
+p {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
   margin: 60px auto 40px;
-} */
-table {
-  margin: 20px auto;
 }
-.tbl-r02 th {
+/* .tbl-r02 th {
   background: #e9727e;
   border: solid 1px #ccc;
   color: #fff;
@@ -58,4 +55,26 @@ border-bottom: none;
     display: block;
     width: 100%;
   }
+} */ 
+
+.table-wrap{
+  width:100%;
+  overflow-x:scroll;
+
+}
+table{
+  border-collapse: collapse;
+  width: 500px;
+  margin:auto;
+}
+.tb-text th,
+.tb-text td{
+  padding: 10px;
+  border: solid 1px #ccc;
+  text-align:center;
+  box-sizing:border-box;
+}
+.tb-text th {
+  background: #99CCFF;
+  color: #fff;
 }
