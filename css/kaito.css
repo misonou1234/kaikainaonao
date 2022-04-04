@@ -24,39 +24,6 @@ object-fit: cover;
 }
 
 /* スキル */
-/* p {
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  margin: 60px auto 40px;
-} */
-/* .tbl-r02 th {
-  background: #e9727e;
-  border: solid 1px #ccc;
-  color: #fff;
-  padding: 10px;
-}
-.tbl-r02 td {
-border: solid 1px #ccc;
-  padding: 10px;
-}
- 
-@media screen and (max-width: 640px) {
-  .last td:last-child {
-    border-bottom: solid 1px #ccc;
-    width: 100%;
-  }
-  .tbl-r02 {
-    width: 80%;
-  }
-  .tbl-r02 th,
-  .tbl-r02 td {
-border-bottom: none;
-    display: block;
-    width: 100%;
-  }
-} */ 
-
 .table-wrap{
   width:100%;
   overflow-x:scroll;
@@ -64,8 +31,9 @@ border-bottom: none;
 }
 table{
   border-collapse: collapse;
-  width: 500px;
+  width: 450px;
   margin:auto;
+  background-color: white;
 }
 .tb-text th,
 .tb-text td{
@@ -76,5 +44,14 @@ table{
 }
 .tb-text th {
   background: #99CCFF;
-  color: #fff;
+  color: black;
+}
+
+/* 保有資格 */
+.certification-title{
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  margin: 40px 40px;
+  border-bottom: solid 1px #383e45;
 }
