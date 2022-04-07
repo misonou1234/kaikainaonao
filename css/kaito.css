@@ -20,7 +20,7 @@ object-fit: cover;
   margin: 20px auto;
 }
 .profile-content>p{
-  width: 49%;
+  width: 60%;
 }
 
 /* スキル */
@@ -31,7 +31,7 @@ object-fit: cover;
 }
 table{
   border-collapse: collapse;
-  width: 450px;
+  width: 80%;
   margin:auto;
   background-color: white;
 }
