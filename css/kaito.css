@@ -3,6 +3,9 @@
 /* メイン画像 */
 .mainvisual{
   margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainvisual_video{
